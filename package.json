@@ -4,8 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint:js": "eslint --ext .js,.tsx . --fix",
-    "lint:style": "stylelint \"**/*.{tsx,styl}\" --ignore-path .gitignore --fix"
+    "lint:js": "eslint --ext .js,.ts,.tsx . --fix",
+    "lint:style": "stylelint \"**/*.{styl}\" --ignore-path .gitignore --fix"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
